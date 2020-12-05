@@ -3,8 +3,11 @@ package game;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		 Juego juego = new Juego(4);
+		 while (!juego.finJuego()) {
+			juego.rondaV2();
+		}
+		 System.out.println("El juego ha terminado");
 	}
 
 }
