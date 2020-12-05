@@ -12,11 +12,10 @@ public class Jugador {
 		this.nombre = "Jugador " + id;
 		this.vivo = true;
 	}
-	
+
 	public Jugador(int id) {
 		this.id = id;
 	}
-
 
 
 
@@ -29,7 +28,8 @@ public class Jugador {
 			System.out.println("El" + nombre + " se ha librado");
 		}
 	}
+
 	public boolean isVivo() {
 		return vivo;
 	}
-	}
+}
