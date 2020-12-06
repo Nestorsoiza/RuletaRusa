@@ -1,6 +1,8 @@
 package game;
 
 public class Revolver {
+	// Creo que no has pensado bien en la logica y te estas complicando
+	// No es mejor simplemente guardar cuantas posiciones faltan para llegar a la bala?
 	private int posicionBalaActual;
 	private int posicionBala;
 	
